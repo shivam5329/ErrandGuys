@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title> </title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/jquery.scrollgress.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.slidertron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body class="landing">
+
+		<!-- Header -->
+		<!-- Banner -->		<!-- One -->
+			<section id="one" class="wrapper style1">
+				<div class="container">
+					<header class="major">
+						<h2>Enter your details</h2>
+						<label for="email">Required Task Description:</label>
+                        <input type="email" name="email" style="width: 30%; margin-left: 35%;">
+                        <label for="email">Choice of service provider (optional):</label>
+                      <input type="email" name="email" style="width: 30%; margin-left: 35%;">
+                      
+                  		<a href="conf.html" class="button" onclick="myFunction()">SUBMIT & PAY NOW</a>
+
+
+				</div>
+			</section>
+			<script>
+function myFunction() {
+    var x, text;
+    x = document.getElementById("abc").value;
+		localStorage.setItem('myStorage', JSON.stringify(x));
+	}
+	</script>
+
+	</body>
+</html>
